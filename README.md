@@ -17,14 +17,14 @@ The choir consists of 8 different dolls:
 
 | Doll  | origin | product serial prefix [1] |  voice type | musical range | frequency range | sound module orientation | comments  |
 |---|---|---|---|---|---|---|---|
-| **Hatsheput**  | Egypt       | `S7DPQ___` | mezzo soprano | A3 – F5  | 220 – 698,46hz     | horizontal |   |
+| **Hatsheput**  | Egypt       | `S7DPQ___` | mezzo soprano | A3 – F5  | 220 – 698,46hz     | horizontal | Spelled Hatshepsut on TE website |
 | **Leila**      | Palestine   | `S4DPQ___` | soprano       | C#4 – A5 | 277,18 – 880hz     | horizontal |   |
 | **Olga**       | Russia      | `S8DPQ___` | contralto     | E3 – C5  | 161,82 – 523,25hz  | vertical   |   |
 | **Bogdan**     | Cossack     | `S6DPQ___` | bass          | E2 – C4  | 82 – 261,60hz      | vertical   |   |
 | **Carlo**      | Italy       | `S2DPQ___` | baritone      | G2 – D#4 | 98 – 293,66hz      | horizontal |   |
 | **Ivana**      | Netherlands | `S5DPQ___` | alto          | F#3 – D5 | 174,61 – 587,339hz | vertical   |   |
 | **Miki**       | Japan       | `S1DPQ___` | tenor         | B2 – G4  | 116,54 – 391,99hz  | horizontal |   |
-| **Giesela**    | Germany     | `S3DPQ___` | mezzo soprano | B3 – G5  | 246,94 – 783,99hz  | horizontal |   |
+| **Giesela**    | Germany     | `S3DPQ___` | mezzo soprano | B3 – G5  | 246,94 – 783,99hz  | horizontal | Spelled Gisela on TE website |
 
 Notes:
 

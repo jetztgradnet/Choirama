@@ -17,18 +17,18 @@ The choir consists of 8 different dolls:
 
 | Doll  | origin | product serial prefix [1] |  voice type | musical range | frequency range | sound module orientation | comments  |
 |---|---|---|---|---|---|---|---|
-| **Hatsheput** | Egypt       | `S7DPQ___` | mezzo soprano | A3 – F5  | 220 – 698,46hz     | horizontal |   |
-| **Leila**     | Palestine   | `S4DPQ___` | soprano       | C#4 – A5 | 277,18 – 880hz     | horizontal |   |
-| **Olga**      | Russia      | `S8DPQ___` | contralto     | E3 – C5  | 161,82 – 523,25hz  | vertical   |   |
-| **Bogdan**    | Cossack     | `S6DPQ___` | bass          | E2 – C4  | 82 – 261,60hz      | vertical   |   |
-| **Carlo**     | Italy       | ?          | baritone      | G2 – D#4 | 98 – 293,66hz      | ?          |   |
-| **Ivana**     | Netherlands | ?          | alto          | F#3 – D5 | 174,61 – 587,339hz | ?          |   |
-| **Miki**      | Japan       | ?          | tenor         | B2 – G4  | 116,54 – 391,99hz  | ?          |   |
-| **Giesela**   | Germany     | ?          | mezzo soprano | B3 – G5  | 246,94 – 783,99hz  | ?          |   |
+| **Hatsheput**  | Egypt       | `S7DPQ___` | mezzo soprano | A3 – F5  | 220 – 698,46hz     | horizontal |   |
+| **Leila**      | Palestine   | `S4DPQ___` | soprano       | C#4 – A5 | 277,18 – 880hz     | horizontal |   |
+| **Olga**       | Russia      | `S8DPQ___` | contralto     | E3 – C5  | 161,82 – 523,25hz  | vertical   |   |
+| **Bogdan**     | Cossack     | `S6DPQ___` | bass          | E2 – C4  | 82 – 261,60hz      | vertical   |   |
+| **Carlo**      | Italy       | `S2DPQ___` | baritone      | G2 – D#4 | 98 – 293,66hz      | horizontal |   |
+| **Ivana**      | Netherlands | `S5DPQ___` | alto          | F#3 – D5 | 174,61 – 587,339hz | vertical   |   |
+| **Miki**       | Japan       | `S1DPQ___` | tenor         | B2 – G4  | 116,54 – 391,99hz  | horizontal |   |
+| **Giesela**    | Germany     | `S3DPQ___` | mezzo soprano | B3 – G5  | 246,94 – 783,99hz  | horizontal |   |
 
 Notes:
 
-[1] the product serial is contained in the `version.txt` file and still to be confirmed by others owning the same dolls.
+[1] the product serial is contained in the `version.txt` file.
 
 
 ## Songs
@@ -96,7 +96,7 @@ Each doll contains a little sound module with an embedded computer and a battery
 
 When plugging the sound module into a computer (or phone or tablet) using USB-C, it will mount a small **USB drive** which contains a version.txt file with doll type and serial number as well as a readme file with instructions **for firmware updates**.
 
-At the time of this writing there are no firmware updates yet.
+The latest firmware version is 1.1.3 (released 2022/12/22) available [here](https://teenage.engineering/downloads/choir).
 
 Additionally, the sound module will register as a **CDC-ACM device** which might be used to **transfer data between host computer and sound module**. Connecting to this device with a terminal program (`minicom`) didn't provide any feedback, though, so the communication protocol is currently unknown.
 
